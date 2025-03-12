@@ -69,7 +69,7 @@ nav img {
   max-width: 400px;
 }
 nav ul li:nth-child(2),
-nav ul li:nth-child(7) {
+nav ul li:nth-child(8) {
   flex: 1;
 }
 
@@ -176,6 +176,55 @@ header h1 {
 .about-us .about-bottom {
     margin-top: 25px;
     max-width: 1080px;
+}
+
+/* Personale */
+
+.workers {
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.workers ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 25px;}
+
+.workers div {
+  font-family: Roboto;
+  gap: 5px;
+  padding: 25px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #8bbc8b;
+  border-radius: 20px;
+}
+
+.workers div a {
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(74, 74, 74);
+}
+
+.workers img {
+  margin-bottom: 5px;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 1000px;
+}
+
+.workers h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 /* Gallery */
