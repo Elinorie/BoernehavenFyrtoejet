@@ -1,100 +1,227 @@
 *,
 *::before,
 *::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: antiquewhite;
+  background-color: antiquewhite;
+}
+
+p, li {
+    font-family: Roboto;
 }
 
 .main-btn {
-    background-color: #37B6FF;
-    padding: 10px 35px;
-    border-radius: 1000px;
-    color: rgb(255, 255, 255);
+  background-color: #8bbc8b;
+  padding: 10px 35px;
+  border-radius: 1000px;
+  color: rgb(255, 255, 255);
+}
 
+.main-btn:hover {
+  background-color: #aadaaa;
 }
 
 .delius-swash-caps-regular {
-    font-family: "Delius Swash Caps", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Navigation */
 
 nav {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  position: fixed;
 }
 
 nav ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    width: 100%;
-    padding: 10px 70px;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  padding: 10px 70px;
 }
 
 nav ul a {
-    text-decoration: none;
-    font-family: Roboto;
-    font-weight: bold;
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: bold;
 }
 
 nav .logo {
-    font-size: 25px;
-    color: white;
+  font-size: 25px;
+  color: white;
 }
 
 nav img {
-    max-height: 100px;
-    max-width: 400px;
+  max-height: 100px;
+  max-width: 400px;
 }
-nav ul li:nth-child(2), nav ul li:nth-child(7) {
-    flex: 1;
+nav ul li:nth-child(2),
+nav ul li:nth-child(7) {
+  flex: 1;
 }
 
 nav .navitem {
-    color: grey;
+  color: grey;
+}
+
+nav .navitem:hover {
+  color: #8bbc8b;
 }
 
 /* Hero */
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("/assets/img/kindergarden-ezgif.com-video-to-gif-converter.gif");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/assets/img/kindergarden-ezgif.com-video-to-gif-converter.gif");
 }
 
 header div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 600px;
-    background: linear-gradient(#0000008a, rgba(255, 255, 255, 0.623));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#0000008a, rgba(255, 255, 255, 0.623));
 }
 
 header h1 {
+  margin-bottom: 15px;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-family: "Playfair Display SC";
+  text-shadow: rgba(255, 255, 255, 0.464) 1px 0 10px;
+}
+
+/* About us */
+
+.about-us {
+  background-color: #aadaaa;
+  padding: 45px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  border-top: solid white 10px;
+}
+
+.about-us .about-middle {
+  display: flex;
+  background:
+  linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%),
+  linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+  linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    padding: 10px;
+    border-radius: 10px;
+  gap: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.633);
+}
+
+.about-us .about-top {
+    text-align: center;
+    max-width: 1000px;
+    margin-bottom: 25px;
+}
+
+.about-us div article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: calc(1080px / 3);
+  padding: 30px;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+.about-us h2 {
+    font-size: 35px;
+    font-weight: bold;
     margin-bottom: 15px;
-    font-size: 50px;
-    color: rgb(255, 255, 255);
-    font-family: 'Playfair Display SC';
-    text-shadow: rgba(255, 255, 255, 0.464) 1px 0 10px;
+}
+
+.about-us h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-us ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-us .about-bottom {
+    margin-top: 25px;
+    max-width: 1080px;
+}
+
+/* Gallery */
+
+.gallery {
+  width: 100%;
+  border-top: solid white 10px;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+    background-color: rgb(127, 111, 194);
+
+}
+
+.gallery ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+.gallery img {
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.gallery h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.gallery div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  background:
+  linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%),
+  linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+  linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
 }
