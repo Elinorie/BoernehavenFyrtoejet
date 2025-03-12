@@ -6,20 +6,43 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: antiquewhite;
+}
+
+.main-btn {
+    background-color: #37B6FF;
+    padding: 10px 35px;
+    border-radius: 1000px;
+    color: rgb(255, 255, 255);
+
+}
+
+.delius-swash-caps-regular {
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 /* Navigation */
 
 nav {
-    background-color: bisque;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100px;
+    
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
+    justify-content: center;
+    align-items: center;
     gap: 25px;
+    width: 100%;
+    padding: 10px 70px;
 }
 
 nav ul a {
@@ -31,4 +54,47 @@ nav ul a {
 nav .logo {
     font-size: 25px;
     color: white;
+}
+
+nav img {
+    max-height: 100px;
+    max-width: 400px;
+}
+nav ul li:nth-child(2), nav ul li:nth-child(7) {
+    flex: 1;
+}
+
+nav .navitem {
+    color: grey;
+}
+
+/* Hero */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/assets/img/kindergarden-ezgif.com-video-to-gif-converter.gif");
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(#0000008a, rgba(255, 255, 255, 0.623));
+}
+
+header h1 {
+    margin-bottom: 15px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display SC';
+    text-shadow: rgba(255, 255, 255, 0.464) 1px 0 10px;
 }
