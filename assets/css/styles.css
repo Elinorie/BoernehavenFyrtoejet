@@ -173,6 +173,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  margin-left: 25px;
 }
 
 .about-us .about-bottom {
@@ -504,4 +505,31 @@ header h1 {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+/* Footer */
+
+footer {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+
+  padding: 25px 50px;
+  gap: 50px;
+}
+
+footer img {
+  height: 200px;
+  margin-right: auto;
+}
+
+
+
+footer ul {
+  margin: 10px 0 10px 25px;
+}
+footer div {
+  background-color: #b1b1b122;
+  padding: 25px;
+  border-radius: 15px;
 }
