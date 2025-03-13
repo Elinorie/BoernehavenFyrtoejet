@@ -10,8 +10,9 @@ body {
   background-color: antiquewhite;
 }
 
-p, li {
-    font-family: Roboto;
+p,
+li, h3, h4 {
+  font-family: Roboto;
 }
 
 .main-btn {
@@ -127,20 +128,23 @@ header h1 {
 
 .about-us .about-middle {
   display: flex;
-  background:
-  linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%),
-  linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
-  linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
-    padding: 10px;
-    border-radius: 10px;
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  padding: 10px;
+  border-radius: 10px;
   gap: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.633);
 }
 
 .about-us .about-top {
-    text-align: center;
-    max-width: 1000px;
-    margin-bottom: 25px;
+  text-align: center;
+  max-width: 1000px;
+  margin-bottom: 25px;
 }
 
 .about-us div article {
@@ -151,31 +155,99 @@ header h1 {
   padding: 30px;
   border-radius: 10px;
   background-color: white;
-
 }
 
 .about-us h2 {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 15px;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 .about-us h3 {
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .about-us ul {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .about-us .about-bottom {
-    margin-top: 25px;
-    max-width: 1080px;
+  margin-top: 25px;
+  max-width: 1080px;
+}
+
+.about-us-container {
+  margin-top: 100px;
+}
+
+/* Praktisk */
+
+.pratical-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #7fabf1;
+}
+
+.practical-container {
+  margin-top: 100px;
+}
+
+.pratical-info article {
+  background-color: white;
+  padding: 35px;
+  border-radius: 15px;
+  width: 600px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.pratical-info ul {
+  margin: 10px 0 10px 25px;
+}
+
+.pratical-info div {
+  gap: 20px;
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.264);
+}
+
+.pratical-info h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.pratical-info h3 {
+  color: #6b91cd;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px 0 10px 0;
+}
+
+.pratical-info h4 {
+  color: #7fabf1;
+  margin-top: 10px;
+}
+
+.pratical-info .text-top {
+  max-width: ;
 }
 
 /* Personale */
@@ -187,15 +259,25 @@ header h1 {
   justify-content: center;
   align-items: center;
   gap: 25px;
+  background-color: #8bbc8b;
 }
 
-.workers ul {
+.workers div {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  gap: 25px;}
+  gap: 25px;
+}
 
-.workers div {
+.workers article p {
+  color: #5e855e;
+}
+.workers .filler-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+}
+.workers article {
   font-family: Roboto;
   gap: 5px;
   padding: 25px;
@@ -203,11 +285,11 @@ header h1 {
   justify-self: center;
   align-items: center;
   flex-direction: column;
-  background-color: #8bbc8b;
+  background-color: #ffffff4a;
   border-radius: 20px;
 }
 
-.workers div a {
+.workers a {
   font-size: 13px;
   text-decoration: none;
   color: rgb(74, 74, 74);
@@ -222,9 +304,10 @@ header h1 {
 }
 
 .workers h2 {
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 15px;
+  font-size: 35px;
+  font-weight: bold;
+
+  margin-bottom: 15px;
 }
 
 /* Gallery */
@@ -239,14 +322,13 @@ header h1 {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-    background-color: rgb(127, 111, 194);
-
+  background-color: rgb(127, 111, 194);
 }
 
 .gallery ul {
-    display: flex;
-    gap: 10px;
-    list-style-type: none;
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
 }
 .gallery img {
   border-radius: 10px;
@@ -269,8 +351,11 @@ header h1 {
   background-color: white;
   padding: 10px;
   border-radius: 10px;
-  background:
-  linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%),
-  linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
-  linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
 }
