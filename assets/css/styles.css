@@ -249,7 +249,7 @@ header h1 {
 .grid-gallery .gradient-bg {
   display: flex;
   flex-direction: column;
-  
+
   padding: 30px 20px 30px 20px;
   background: linear-gradient(rgba(0, 0, 0, 0), #000000a9);
   height: 100%;
@@ -279,7 +279,6 @@ header h1 {
   font-size: 35px;
   font-weight: bold;
   margin-bottom: 50px;
-
 }
 
 .grid-gallery p {
@@ -318,7 +317,6 @@ header h1 {
 .calendar h2 {
   font-size: 35px;
   font-weight: bold;
-
 }
 
 .calendar article {
@@ -581,7 +579,6 @@ header h1 {
   max-width: 600px;
 }
 
-
 .application h3 {
   font-weight: bold;
   font-size: 25px;
@@ -595,7 +592,6 @@ header h1 {
   font-weight: bold;
   margin-top: 25px;
   display: inline-block;
-  
 }
 
 .application .leftside {
@@ -624,14 +620,11 @@ header h1 {
   background: linear-gradient(#000000ac, #5a5a5a84);
 }
 
-
-
 .application .leftside p {
   text-align: center;
   max-width: 350px;
   margin-bottom: 25px;
 }
-
 
 /* Sign Up Section */
 
@@ -699,8 +692,6 @@ footer img {
   margin-right: auto;
 }
 
-
-
 footer ul {
   margin: 10px 0 10px 25px;
   display: flex;
@@ -722,7 +713,6 @@ footer div {
 /* Tablet */
 
 @media screen and (width < 768px) {
-
   body {
     display: flex;
     flex-direction: column;
@@ -730,7 +720,8 @@ footer div {
     max-width: 768px;
   }
 
-  nav, nav ul {
+  nav,
+  nav ul {
     padding: 27px;
     position: relative;
     flex: 1 1;
@@ -740,11 +731,10 @@ footer div {
     flex-wrap: wrap;
   }
 
-  header img, header h1 {
+  header img,
+  header h1 {
     text-align: center;
     font-size: 30px;
     width: 400px;
   }
-
-  
 }
