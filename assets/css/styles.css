@@ -94,7 +94,7 @@ header {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/BoernehavenFyrtoejet/assets/img/kindergarden-ezgif.com-video-to-gif-converter.gif");
+  background-image: url("../assets/img/kindergarden-ezgif.com-video-to-gif-converter.gif");
 }
 
 header div {
@@ -198,52 +198,52 @@ header h1 {
 
 .grid-gallery .image1 {
   grid-area: image1;
-  background-image: url("/assets/img/forsideimage1.png");
+  background-image: url("../assets/img/forsideimage1.png");
 }
 
 .grid-gallery .image2 {
   grid-area: image2;
-  background-image: url("/assets/img/forsideimage2.png");
+  background-image: url("../assets/img/forsideimage2.png");
 }
 
 .grid-gallery .image3 {
   grid-area: image3;
-  background-image: url("/assets/img/forsideimage3.png");
+  background-image: url("../assets/img/forsideimage3.png");
 }
 
 .grid-gallery .image4 {
   grid-area: image4;
-  background-image: url("/assets/img/forsideimage4.png");
+  background-image: url("../assets/img/forsideimage4.png");
 }
 
 .grid-gallery .image5 {
   grid-area: image5;
-  background-image: url("/assets/img/forsideimage5.png");
+  background-image: url("../assets/img/forsideimage5.png");
 }
 
 .grid-gallery .image6 {
   grid-area: image6;
-  background-image: url("/assets/img/forsideimage6.png");
+  background-image: url("../assets/img/forsideimage6.png");
 }
 
 .grid-gallery .image7 {
   grid-area: image7;
-  background-image: url("/assets/img/forsideimage7.png");
+  background-image: url("../assets/img/forsideimage7.png");
 }
 
 .grid-gallery .image8 {
   grid-area: image8;
-  background-image: url("/assets/img/forsideimage8.png");
+  background-image: url("../assets/img/forsideimage8.png");
 }
 
 .grid-gallery .image9 {
   grid-area: image9;
-  background-image: url("/assets/img/forsideimage9.png");
+  background-image: url("../assets/img/forsideimage9.png");
 }
 
 .grid-gallery .image10 {
   grid-area: image10;
-  background-image: url("/assets/img/forsideimage10.png");
+  background-image: url("../assets/img/forsideimage10.png");
 }
 
 .grid-gallery .gradient-bg {
@@ -595,7 +595,7 @@ header h1 {
 }
 
 .application .leftside {
-  background-image: url("/BoernehavenFyrtoejet/assets/img/74b7caa9387152f2cc09fe590603f8f3b209d0c036399679c01acba9c83.jpg");
+  background-image: url("../assets/img/74b7caa9387152f2cc09fe590603f8f3b209d0c036399679c01acba9c83.jpg");
   background-repeat: no-repeat;
   background-position: top;
   min-width: 470px;
