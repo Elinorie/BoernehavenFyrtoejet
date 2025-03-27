@@ -179,6 +179,7 @@ header h1 {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 15px;
+  
 }
 
 .about-us h3 {
@@ -186,6 +187,11 @@ header h1 {
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
+  color: #8bbc8b;
+}
+
+.about-us .about-middle ul, .about-us .about-middle p {
+  color: rgb(121, 121, 121);
 }
 
 .about-us ul {
@@ -318,6 +324,7 @@ header h1 {
   background-color: white;
   padding: 25px;
   width: 75%;
+  color: #8bbc8b;
   text-align: center;
   border-radius: 15px 15px 0 0;
 }
@@ -414,9 +421,9 @@ header h1 {
   font-size: 14px;
 }
 
-.details h3 {
+.details h4 {
   margin: 0 0 5px;
-  font-size: 18px;
+  font-size: 20px;
   color: #8bbc8b;
 }
 
@@ -445,27 +452,30 @@ header h1 {
 /* Praktisk */
 
 .pratical-info {
+  
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 50px;
-  background-color: #f9f9f97a;
+  background-color: #f9f9f9a5;
+  border: solid white 5px;
   border-radius: 40px;
 }
 
 .practical-container {
-  margin-top: 80px;
+  margin-top: 180px;
 }
 
 .pratical-info article {
-  background-color: #faf9f6;
+  background-color: #ffffff;
   padding: 35px;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 15px;
   width: 600px;
   min-height: 400px;
   display: flex;
+  border: solid #8bbc8b 2px;
   flex-direction: column;
   justify-content: center;
 }
@@ -489,7 +499,7 @@ header h1 {
 
 .pratical-info article p,
 .pratical-info article li {
-  color: black;
+  color: rgb(107, 107, 107);
 }
 
 .pratical-info h2 {
@@ -499,15 +509,15 @@ header h1 {
 }
 
 .pratical-info h3 {
-  color: black;
-  font-size: 35px;
+  color: #8bbc8b;
+  font-size: 25px;
   font-weight: bold;
   margin: 15px 0 10px 0;
 }
 
 .pratical-info h4 {
-  color: black;
-  font-size: 20px;
+  color: #8bbc8b;
+  font-size: 18px;
   margin-top: 10px;
 }
 
@@ -520,7 +530,7 @@ header h1 {
 /* Personale */
 
 .staff {
-  margin-top: 150px;
+  margin-top: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -528,15 +538,18 @@ header h1 {
 }
 .staff h2 {
   font-size: 35px;
+  
   font-weight: bold;
 }
 
 .staff h3 {
-  font-size: 25px;
-  font-weight: bold;
-  background-color: #f9f9f97a;
-  color: black;
   width: 100%;
+  background-color: white;
+  font-size: 25px;
+  color: #8bbc8b;
+  font-weight: bold;
+
+  
   border-radius: 15px 15px 0 0;
   padding: 10px;
   text-align: center;
@@ -587,7 +600,7 @@ header h1 {
 
 .head-teacher p {
   font-size: 14px;
-  color: black;
+  color: rgb(128, 128, 128);
 }
 
 .teachers-grid {
@@ -597,7 +610,8 @@ header h1 {
   flex-wrap: wrap;
   width: 1080px;
   gap: 15px;
-  background-color: #f9f9f97a;
+  background-color: #f9f9f9a5;
+  border: solid white 5px;
   padding: 25px;
   border-radius: 0 0 15px 15px;
 }
@@ -634,15 +648,17 @@ header h1 {
 
 .teacher p {
   font-size: 12px;
-  color: rgb(30, 28, 28);
+  color: rgb(123, 123, 123);
   margin: 0;
 }
 
 /* Gallery */
 
 .gallery {
-  width: 50%;
-  border-top: solid white 10px;
+
+  width: 75%;
+  background-color: #f9f9f9a5;
+  border: solid white 5px;
   padding: 45px;
   display: flex;
   flex-direction: column;
@@ -650,12 +666,11 @@ header h1 {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-  background-color: #f9f9f97a;
   border-radius: 40px;
 }
 
 .gallery-container {
-  margin-top: 100px;
+  margin-top: 180px;
 }
 
 .gallery .image-top {
@@ -879,15 +894,15 @@ header h1 {
   margin-bottom: 10px;
   padding: 11px;
   border-radius: 5px;
-  border: solid 2px black;
+  border: solid 2px rgb(182, 182, 182);
 }
 
 .application .rightside label {
   font-size: 13px;
   display: flex;
   flex-direction: column;
-  color: black;
-  margin-bottom: 5px;
+  color: #8bbc8b;
+
 }
 
 .application .rightside .fill-half {
@@ -1050,10 +1065,16 @@ footer .img {
   /* Navigation*/
   nav,
   nav ul {
+    margin: 0;
+
+    justify-content: center;
+    align-items: center;
     padding: 27px;
     position: relative;
     flex: 1 1;
-    max-width: 768px;
+    width: 100%;
+    border-radius: 0;
+    border: 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1068,6 +1089,35 @@ footer .img {
     width: 400px;
   }
 
+  .grid-gallery h2 {
+    width: 100%;
+  }
+
+  .grid-gallery .images-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 200px);
+    grid-template-areas: 
+    "image1 image1"
+    "image2 image2"
+    "image3 iamge3"
+    "image4 image4"
+    "image5 image5"
+    "image6 image6"
+    "image7 image7"
+    "image8 image8"
+    "image9 image9"
+    "image10 image10"
+    ;
+  }
+  .events h2 {
+    width: 100%;
+  }
+  .events .event-container {
+    width: 100%;
+
+  }
+
   /* Staff */
   .teachers-grid {
     display: flex;
@@ -1075,10 +1125,43 @@ footer .img {
     width: 100%;
   }
 
-  /* Footer */
+  /* About*/
 
+  .about-us-container {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  .about-us {
+    width: 90%;
+  }
+
+  .about-us .about-middle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-us .about-middle article {
+    max-width: 100%;
+  }
+
+  /* Pratisk */
+
+  .practical-container {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    width: 90%;
+  }
+
+  /* Footer */
+footer {
+  width: 100%;
+  border-radius: 0;
+  border: 0;
+}
   footer,
-  footer .footer-left {
+  footer .footer-mail {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1089,12 +1172,16 @@ footer .img {
   }
 
   footer .footer-nav::after,
-  footer .footer-left::after {
+  footer .footer-mail::after, footer .navi::after {
     content: "";
-    background-color: white;
+    background-color: #8bbc8b;
     width: 100%;
     height: 1px;
-    margin-top: 15px;
+    margin-top: 25px;
+  }
+
+  footer .footer-nav {
+    margin-top: 40px;
   }
 
   footer img {
