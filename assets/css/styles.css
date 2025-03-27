@@ -7,7 +7,14 @@
 }
 
 body {
-  background-color: #bfecff;
+  background-color: linear-gradient(
+    0.25turn,
+    #ffb3ba,
+    #ffdfba,
+    #ffffba,
+    #baffc9,
+    #bae1ff
+  );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,7 +131,7 @@ header h1 {
 /* About us */
 
 .about-us {
-  background-color: #f0c1e1;
+  background-color: #baffc9;
   padding: 45px;
   display: flex;
   justify-self: center;
@@ -323,7 +330,6 @@ header h1 {
 .events {
   width: 100%;
   padding: 50px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -340,7 +346,6 @@ header h1 {
   gap: 20px;
   padding: 20px;
   border-radius: 0 0 15px 15px;
-  background-color: #86a8b776;
 }
 
 .events h2 {
@@ -360,14 +365,14 @@ header h1 {
   padding: 20px;
   background: white;
   gap: 15px;
-  border-color: #fbbf24;
+  border-color: #bfecff;
   flex: 1 1 500px;
   height: 180px;
 }
 
 .date {
   text-align: center;
-  color: #1e1e64;
+  color: black;
 }
 
 .day {
@@ -383,7 +388,7 @@ header h1 {
 .details h3 {
   margin: 0 0 5px;
   font-size: 18px;
-  color: #1e1e64;
+  color: black;
 }
 
 .details p {
@@ -398,14 +403,14 @@ header h1 {
 }
 
 .request-btn a {
-  background-color: #fbbf24;
+  background-color: #bfecff;
   border: none;
   text-decoration: none;
   padding: 12px 24px;
   display: inline-block;
   font-size: 16px;
   border-radius: 30px;
-  color: #1e1e64;
+  color: black;
   font-weight: 600;
   margin-top: 10px;
 }
@@ -418,7 +423,7 @@ header h1 {
   align-items: center;
   flex-direction: column;
   padding: 50px;
-  background-color: #fff9bf;
+  background-color: #ffffba;
 }
 
 .practical-container {
@@ -426,7 +431,7 @@ header h1 {
 }
 
 .pratical-info article {
-  background-color: white;
+  background-color: #faf9f6;
   padding: 35px;
   border-radius: 15px;
   width: 600px;
@@ -451,12 +456,12 @@ header h1 {
   align-items: center;
   padding: 25px;
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.264);
+  background-color: #ffffba;
 }
 
 .pratical-info article p,
 .pratical-info article li {
-  color: grey;
+  color: black;
 }
 
 .pratical-info h2 {
@@ -501,6 +506,7 @@ header h1 {
   font-size: 25px;
   font-weight: bold;
   background-color: white;
+  color: black;
   width: 100%;
   border-radius: 15px 15px 0 0;
   padding: 10px;
@@ -552,7 +558,7 @@ header h1 {
 
 .head-teacher p {
   font-size: 14px;
-  color: grey;
+  color: black;
 }
 
 .teachers-grid {
@@ -562,7 +568,7 @@ header h1 {
   flex-wrap: wrap;
   width: 1080px;
   gap: 15px;
-  background-color: #bfecff;
+  background-color: #ffb3ba;
   padding: 25px;
   border-radius: 0 0 15px 15px;
 }
@@ -599,7 +605,7 @@ header h1 {
 
 .teacher p {
   font-size: 12px;
-  color: gray;
+  color: rgb(30, 28, 28);
   margin: 0;
 }
 
@@ -615,7 +621,7 @@ header h1 {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-  background-color: #b0e0e6;
+  background-color: #d4ffea;
 }
 
 .gallery-container {
@@ -639,10 +645,14 @@ header h1 {
 }
 
 
+.gallery p {
+  font-size: 20px;
+}
+
 /* Application */
 
 .application {
-  background-color: #f0fff0;
+  background-color: #ffdfba;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -741,14 +751,14 @@ header h1 {
   margin-bottom: 10px;
   padding: 11px;
   border-radius: 5px;
-  border: solid 2px rgba(0, 0, 0, 0.062);
+  border: solid 2px black;
 }
 
 .application .rightside label {
   font-size: 13px;
   display: flex;
   flex-direction: column;
-  color: rgb(127, 127, 127);
+  color: black;
   margin-bottom: 5px;
 }
 
@@ -772,12 +782,11 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #b7b1f2;
-  color: white;
+  background: faf9f6;
   padding: 60px 30px;
   border-radius: 40px;
   width: 98%;
-  margin: 25px;
+  margin: 30px;
 }
 
 footer img {
@@ -799,7 +808,7 @@ footer img {
 .contact-mail {
   margin-top: 20px;
   display: flex;
-  border: 2px solid white;
+  border: 2px solid black;
   border-radius: 30px;
   overflow: hidden;
 }
@@ -813,12 +822,12 @@ footer img {
 }
 
 .contact-mail a {
-  background-color: #ffb703;
+  background-color: grey;
   border: none;
   text-decoration: none;
   padding: 10px 20px;
   cursor: pointer;
-  color: white;
+  color: black;
   font-weight: bold;
   border-radius: 0 30px 30px 0;
 }
@@ -835,7 +844,7 @@ footer img {
 
 .footer-nav a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .footer-nav a:hover {
