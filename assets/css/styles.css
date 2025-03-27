@@ -166,18 +166,19 @@ header h1 {
   gap: 10px;
   max-width: calc(1080px / 3);
   padding: 30px;
+  gap: 35px;
   border-radius: 10px;
   background-color: white;
 }
 
 .about-us h2 {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
 .about-us h3 {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
@@ -203,6 +204,8 @@ header h1 {
 
 .grid-gallery {
   background-color: #f9f9f97a;
+  border-radius: 40px;
+  gap: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -416,21 +419,20 @@ header h1 {
   color: #555;
 }
 
-.events .contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 25px;
+.request-btn {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  color: black;
 }
 
 .events .main-btn {
   text-align: center;
   display: inline-block;
-  background-color: #8bbc8b;
-  text-decoration: none;
-  border-radius: 999px;
-  font-weight: bold;
+  font-size: 18px;
+  border-radius: 30px;
+  color: black;
+  font-weight: 600;
   margin-top: 10px;
 }
 
@@ -443,6 +445,7 @@ header h1 {
   flex-direction: column;
   padding: 50px;
   background-color: #f9f9f97a;
+  border-radius: 40px;
 }
 
 .practical-container {
@@ -452,6 +455,7 @@ header h1 {
 .pratical-info article {
   background-color: #faf9f6;
   padding: 35px;
+  font-size: 18px;
   border-radius: 15px;
   width: 600px;
   min-height: 400px;
@@ -490,13 +494,14 @@ header h1 {
 
 .pratical-info h3 {
   color: black;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: bold;
   margin: 15px 0 10px 0;
 }
 
 .pratical-info h4 {
   color: black;
+  font-size: 20px;
   margin-top: 10px;
 }
 
@@ -640,6 +645,7 @@ header h1 {
   flex-wrap: wrap;
   gap: 10px;
   background-color: #f9f9f97a;
+  border-radius: 40px;
 }
 
 .gallery-container {
@@ -766,6 +772,7 @@ header h1 {
 
 .application {
   background-color: #f9f9f97a;
+  border-radius: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
