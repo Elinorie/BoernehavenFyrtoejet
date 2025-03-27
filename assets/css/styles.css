@@ -627,18 +627,6 @@ background-color: #86a8b776;
   width: 150px;
 }
 
-.gallery ul {
-  display: flex;
-  gap: 10px;
-  list-style-type: none;
-}
-.gallery img {
-  border-radius: 10px;
-  height: 300px;
-  width: 300px;
-  object-fit: cover;
-  object-position: center;
-}
 
 .gallery h2 {
   font-size: 35px;
@@ -651,14 +639,7 @@ background-color: #86a8b776;
   text-align: center;
 }
 
-.gallery div {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  background-color: rgba(255, 255, 255, 0.468);
-  padding: 10px;
-  border-radius: 10px;
-}
+
 
 /* Application */
 
