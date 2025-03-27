@@ -203,14 +203,16 @@ header h1 {
 /* Grid section */
 
 .grid-gallery {
-  background-color: #f9f9f97a;
-  border-radius: 40px;
-  gap: 40px;
+  width: 100%;
+
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 50px;
+  border-top: solid white 3px;
+  border-bottom: solid white 3px;
 }
 
 .grid-gallery .image1 {
@@ -283,13 +285,18 @@ header h1 {
   transform: translateY(-5px);
 }
 
+
+
 .grid-gallery .images-container {
+  
+  width: 75%;
   gap: 15px;
-  background-color: #f9f9f97a;
+  background-color: #f9f9f9a5;
+  border: solid white 5px;
   padding: 15px;
   border-radius: 0 0 15px 15px;
   display: grid;
-  grid-template-columns: 235px 235px 235px 235px 235px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 194px 194px 194px 194px;
   grid-template-areas:
     "image1 image1 image2 image3 image3"
@@ -310,7 +317,7 @@ header h1 {
   font-weight: bold;
   background-color: white;
   padding: 25px;
-  width: 89%;
+  width: 75%;
   text-align: center;
   border-radius: 15px 15px 0 0;
 }
@@ -342,17 +349,18 @@ header h1 {
 }
 
 .event-container {
-  width: 1200px;
+  width: 75%;
   display: flex;
   align-items: center;
   background-color: #f9f9f9a5;
+  border: solid white 5px;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
   border-radius: 0 0 15px 15px;
-  border: solid white 5px;
+  
 }
 
 .events .day,
@@ -363,12 +371,12 @@ header h1 {
 .events h2 {
   font-size: 35px;
   font-weight: bold;
-  width: 1200px;
   background-color: white;
   text-align: center;
   padding: 15px;
   color: #8bbc8b;
   border-radius: 15px 15px 0 0;
+  width: 75%;
 }
 
 .events .desc {
@@ -419,20 +427,19 @@ header h1 {
   color: #555;
 }
 
-.request-btn {
-  text-align: center;
-  margin-top: 40px;
-  font-size: 20px;
-  color: black;
+.events .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
-
 .events .main-btn {
   text-align: center;
   display: inline-block;
-  font-size: 18px;
-  border-radius: 30px;
-  color: black;
-  font-weight: 600;
+
+  text-decoration: none;
+  font-weight: bold;
   margin-top: 10px;
 }
 
