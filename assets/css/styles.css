@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f0fff0;
+  background-color: #bfecff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +30,7 @@ h4 {
 }
 
 .main-btn:hover {
-  background-color: #aadaaa;
+  background-color: #8bbc8b;
 }
 
 .delius-swash-caps-regular {
@@ -124,7 +124,7 @@ header h1 {
 /* About us */
 
 .about-us {
-  background-color: #e6e6fa;
+  background-color: #f0c1e1;
   padding: 45px;
   display: flex;
   justify-self: center;
@@ -193,7 +193,7 @@ header h1 {
 /* Grid section */
 
 .grid-gallery {
-  background-color: #f0fff0;
+  background-color: #bfecff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -273,7 +273,7 @@ header h1 {
 
 .grid-gallery .images-container {
   gap: 15px;
-  background-color: #f0fff0;
+  background-color: #bfecff;
   padding: 15px;
   border-radius: 0 0 15px 15px;
   display: grid;
@@ -361,11 +361,11 @@ header h1 {
 }
 
 .event-card.orange {
-  border-color: #fbbf24;
+  border-color: #bfecff;
 }
 
 .event-card.purple {
-  border-color: #7c3aed;
+  border-color: #cb9df0;
 }
 
 .date {
@@ -401,7 +401,7 @@ header h1 {
 }
 
 .request-button button {
-  background-color: #fbbf24;
+  background-color: #f0c1e1;
   border: none;
   padding: 12px 24px;
   font-size: 16px;
@@ -419,7 +419,7 @@ header h1 {
   align-items: center;
   flex-direction: column;
   padding: 50px;
-  background-color: #fff5ee;
+  background-color: #fff9bf;
 }
 
 .practical-container {
@@ -467,14 +467,14 @@ header h1 {
 }
 
 .pratical-info h3 {
-  color: #dbad74;
+  color: #black;
   font-size: 25px;
   font-weight: bold;
   margin: 15px 0 10px 0;
 }
 
 .pratical-info h4 {
-  color: #f1be7f;
+  color: #black;
   margin-top: 10px;
 }
 
@@ -501,7 +501,7 @@ header h1 {
 .staff h3 {
   font-size: 25px;
   font-weight: bold;
-  background-color: #333;
+  background-color: white;
   width: 100%;
   border-radius: 15px 15px 0 0;
   padding: 10px;
@@ -535,7 +535,7 @@ header h1 {
   width: 100px;
   height: 100px;
   background-color: #888;
-  border: 4px solid purple;
+  border: 4px solid #white;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -548,12 +548,12 @@ header h1 {
   margin-top: 60px;
   font-size: 18px;
   font-weight: bold;
-  color: #333;
+  color: black;
 }
 
 .head-teacher p {
   font-size: 14px;
-  color: gray;
+  color: grey;
 }
 
 .teachers-grid {
@@ -563,7 +563,7 @@ header h1 {
   flex-wrap: wrap;
   width: 1080px;
   gap: 15px;
-  background-color: #a9a9a9;
+  background-color: #bfecff;
   padding: 25px;
   border-radius: 0 0 15px 15px;
 }
@@ -580,9 +580,9 @@ header h1 {
   margin-bottom: 10px;
   width: 150px;
   height: 150px;
-  background-color: #ccc;
+  background-color: grey;
   border-radius: 10px;
-  border: 2px solid orange;
+  border: 2px solid #white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -794,7 +794,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  background: #b7b1f2;
   color: white;
   padding: 60px 30px;
   border-radius: 40px;
