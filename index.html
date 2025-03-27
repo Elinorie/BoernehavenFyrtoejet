@@ -175,8 +175,8 @@
           </div>
           <div class="details">
             <h3>🪄 Magisk Eventyrdag</h3>
-            <p>Kl. 10:00 - 14:00</p>
-            <p>
+            <p class="time">Kl. 10:00 - 14:00</p>
+            <p class="desc">
               Kære børn og forældre, I inviteres til en fortryllende dag i
               Fyrtøjet, hvor vi dykker ned i en verden af magi, helte og
               mystiske væsner. Kom klædt ud som jeres yndlingseventyrfigur og
@@ -194,8 +194,8 @@
           </div>
           <div class="details">
             <h3>📜 Skattejagt under det store træ</h3>
-            <p>Kl. 14:00 - 15:30</p>
-            <p>
+            <p class="time">Kl. 14:00 - 15:30</p>
+            <p class="desc">
               Kom og vær med til en spændende skattejagt under det store træ i
               børnehaven! Vi skal på jagt efter skjulte skatte, løse sjove gåder
               og finde de magiske skatte, som er gemt i naturen. Tag din bedste
@@ -211,8 +211,8 @@
           </div>
           <div class="details">
             <h3>🎨 Krea-dag i Krea-Stuen</h3>
-            <p>Kl. 13:00 - 14:30</p>
-            <p>
+            <p class="time">Kl. 13:00 - 14:30</p>
+            <p class="desc">
               Vær med til en fantastisk Kreativ Eventyrdag i børnehaven! Vi skal
               ud på et spændende eventyr, hvor vi bruger vores fantasi og
               kreativitet til at skabe sjove ting, lave kunst og måske finde på
@@ -230,8 +230,8 @@
           </div>
           <div class="details">
             <h3>📚 Historie-Fredag</h3>
-            <p>Kl. 13:00 - 14:30</p>
-            <p>
+            <p class="time">Kl. 13:00 - 14:30</p>
+            <p class="desc">
               En historisk fredag, hvor vi læser et eventyr fra én af H.C.
               Andersens fantastiske eventyr! Vi dykker helt ned i eventyret
               imens vi spiser boller og drikker saftevand.
@@ -246,8 +246,8 @@
           </div>
           <div class="details">
             <h3>🐶 Dyrenes Dag I Den Fortryllede Have</h3>
-            <p>Kl. 14:00 - 15:30</p>
-            <p>
+            <p class="time">Kl. 14:00 - 15:30</p>
+            <p class="desc">
               Børnene lærer om dyreliv gennem leg og sansestationer – fx
               "frøspring", "fuglereir" og "bamsedyrlæge". Vi taler om, hvordan
               vi passer på dyr og natur.
@@ -262,8 +262,8 @@
           </div>
           <div class="details">
             <h3>🥐 Det Lille Bageri</h3>
-            <p>Kl. 13:00 - 15:30</p>
-            <p>
+            <p class="time">Kl. 13:00 - 15:30</p>
+            <p class="desc">
               Børnene laver deres egne små brød, boller eller snobrød over bål.
               Vi taler om råvarer, smag og samarbejde – og nyder bagefter den
               fælles "middag" under åben himmel.
@@ -271,34 +271,76 @@
           </div>
         </article>
 
-      <div class="request-btn">
+      <div class="contact">
         <p class="delius-swash-caps-regular">Har du forslag til et event?</p>
-        <p><a href="">Send forslag</a></p>
+        <p><a href="" class="main-btn">Send forslag</a></p>
       </div>
     </section>
     <!--  Footer -->
-    <footer id="contact">
-      <img src="assets/img/telefon.png" alt="Contact" />
-      <div>
-        <h3>📞 Kontakt</h3>
-        <ul>
-          <li>
-            <a href="tel:" class="contant-item">Tlf nr.: +45 00 00 00 00</a>
-          </li>
-          <li>
-            <a href="to:" class="contant-item">E-mail: fyrtoejet@post.com</a>
-          </li>
-        </ul>
+    <footer>
+      <img src="assets/img/telefon.png" alt="" />
+
+      <div class="footer-mail">
+        <h3 class="logo delius-swash-caps-regular">☎︎ Børnehaven Fyrtøjet</h3>
+        <p>
+          Har du spørgsmål eller vil du tilmelde dit barn, er du velkommen til
+          at kontakte os!
+        </p>
+        <form class="contact-mail">
+          <input type="email" placeholder="Email" required />
+          <a href="">Send</a>
+        </form>
       </div>
-      <div>
-        <h3>⏰ Åbningstider</h3>
+
+      <article class="navi">
+        <div>
+          <h3 class="delius-swash-caps-regular">Åbningstider</h3>
+          <ul>
+            <li>📆 Mandag: 6:30 - 17:00</li>
+            <li>📆 Tirsdag: 6:30 - 17:00</li>
+            <li>📆 Onsdag: 6:30 - 17:00</li>
+            <li>📆 Torsdag: 6:30 - 17:00</li>
+            <li>📆 Fredag: 6:30 - 17:00</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="footer-nav">
+        <h3 class="delius-swash-caps-regular">Navigation</h3>
         <ul>
-          <li>📆 Mandag: 6:30 - 17:00</li>
-          <li>📆 Tirsdag: 6:30 - 17:00</li>
-          <li>📆 Onsdag: 6:30 - 17:00</li>
-          <li>📆 Torsdag: 6:30 - 17:00</li>
-          <li>📆 Fredag: 6:30 - 17:00</li>
+          <li><a href="">Forside</a></li>
+          <li><a href="">Om os</a></li>
+          <li><a href="">Praktisk</a></li>
+          <li><a href="">Personale & Bestyrelse</a></li>
+          <li><a href="">Galleri</a></li>
+          <li><a href="">Tilmelding</a></li>
+          <li><a href="">Kontakt</a></li>
         </ul>
+      </article>
+
+      <div class="footer-events">
+        <article>
+          <div class="img"></div>
+          <div>
+            <h4>🪄 Magisk Eventyrdag</h4>
+            <p>18. April, kl. 10:00-14:00</p>
+          </div>
+        </article>
+        <article>
+          <div class="img"></div>
+          <div>
+            <h4>🎨 Krea-dag i Krea-Stuen</h4>
+            <p>16. Maj, kl. 13:00-14:30</p>
+          </div>
+        </article>
+        <article>
+          <div class="img"></div>
+          <div>
+            <h4>🐶 Dyrenes Dag I Den Fortryllede Have</h4>
+            <p>3. Juni, kl. 13:00-15:30</p>
+          </div>
+        </article>
+        <p><a href="" class="main-btn">Flere events</a></p>
       </div>
     </footer>
   </body>
