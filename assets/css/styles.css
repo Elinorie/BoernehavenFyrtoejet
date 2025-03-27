@@ -132,6 +132,7 @@ header h1 {
 
 .about-us {
   background-color: #f9f9f97a;
+  border-radius: 40px;
   padding: 35px;
   display: flex;
   justify-self: center;
@@ -206,7 +207,6 @@ header h1 {
   justify-content: center;
   align-items: center;
   padding: 50px;
-  width: 50%;
 }
 
 .grid-gallery .image1 {
@@ -613,7 +613,7 @@ header h1 {
 /* Gallery */
 
 .gallery {
-  width: 100%;
+  width: 50%;
   border-top: solid white 10px;
   padding: 45px;
   display: flex;
@@ -646,7 +646,7 @@ header h1 {
 }
 
 .gallery p {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 /* Application */
