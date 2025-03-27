@@ -323,7 +323,7 @@ header h1 {
 .events {
   width: 100%;
   padding: 50px;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -338,9 +338,9 @@ header h1 {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
-padding: 20px;
-border-radius: 0 0 15px 15px;
-background-color: #86a8b776;
+  padding: 20px;
+  border-radius: 0 0 15px 15px;
+  background-color: #86a8b776;
 }
 
 .events h2 {
@@ -627,7 +627,6 @@ background-color: #86a8b776;
   width: 150px;
 }
 
-
 .gallery h2 {
   font-size: 35px;
   font-weight: bold;
@@ -638,7 +637,6 @@ background-color: #86a8b776;
   max-width: 800px;
   text-align: center;
 }
-
 
 
 /* Application */
