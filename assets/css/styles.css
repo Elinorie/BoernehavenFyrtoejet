@@ -176,7 +176,6 @@ header h1 {
 }
 
 .about-us h2 {
-  
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 15px;
@@ -780,6 +779,7 @@ header h1 {
 .application {
   background-color: #f9f9f97a;
   margin-top: 180px;
+  border: solid white 5px;
   border-radius: 40px;
   display: flex;
   justify-content: center;
